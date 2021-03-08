@@ -29,7 +29,7 @@ namespace ValheimP2P
                 var original  = AccessTools.Method(typeof(ZSteamSocket), "StartHost");
                 if (original is null)
                 {
-                    ZLog.LogError($"[{PluginInfo.NAME}] Coult not find ZSteamSocket.StartHost");
+                    ZLog.LogError($"[{PluginInfo.NAME}] Could not find ZSteamSocket.StartHost");
                     return;
                 }
 
@@ -52,7 +52,7 @@ namespace ValheimP2P
                 });
                 if (original is null)
                 {
-                    ZLog.LogError($"[{PluginInfo.NAME}] Coult not find ZSteamMatchmaking.OnServerResponded");
+                    ZLog.LogError($"[{PluginInfo.NAME}] Could not find ZSteamMatchmaking.OnServerResponded");
                     return;
                 }
 
